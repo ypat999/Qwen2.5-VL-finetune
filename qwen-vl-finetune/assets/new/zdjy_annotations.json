@@ -1,0 +1,236 @@
+[
+  {
+    "image": "qwen-vl-finetune/assets/new/zdjy/12-占道经营.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "图片中是否存在占道经营现象？\n<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "是"
+      }
+    ]
+  },
+  {
+    "image": "qwen-vl-finetune/assets/new/zdjy/14-占道经营.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "图片中是否存在占道经营现象？\n<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "是"
+      }
+    ]
+  },
+  {
+    "image": "qwen-vl-finetune/assets/new/zdjy/15-占道经营.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "图片中是否存在占道经营现象？\n<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "是"
+      }
+    ]
+  },
+  {
+    "image": "qwen-vl-finetune/assets/new/zdjy/20-占道经营.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "图片中是否存在占道经营现象？\n<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "是"
+      }
+    ]
+  },
+  {
+    "image": "qwen-vl-finetune/assets/new/zdjy/21-占道经营.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "图片中是否存在占道经营现象？\n<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "是"
+      }
+    ]
+  },
+  {
+    "image": "qwen-vl-finetune/assets/new/zdjy/24-占道经营.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "图片中是否存在占道经营现象？\n<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "是"
+      }
+    ]
+  },
+  {
+    "image": "qwen-vl-finetune/assets/new/zdjy/25-占道经营.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "图片中是否存在占道经营现象？\n<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "是"
+      }
+    ]
+  },
+  {
+    "image": "qwen-vl-finetune/assets/new/zdjy/26-占道经营.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "图片中是否存在占道经营现象？\n<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "是"
+      }
+    ]
+  },
+  {
+    "image": "qwen-vl-finetune/assets/new/zdjy/30-占道经营.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "图片中是否存在占道经营现象？\n<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "是"
+      }
+    ]
+  },
+  {
+    "image": "qwen-vl-finetune/assets/new/zdjy/3502110000132100046320210204093921.jpeg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "图片中是否存在占道经营现象？\n<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "是"
+      }
+    ]
+  },
+  {
+    "image": "qwen-vl-finetune/assets/new/zdjy/5-占道经营.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "图片中是否存在占道经营现象？\n<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "是"
+      }
+    ]
+  },
+  {
+    "image": "qwen-vl-finetune/assets/new/zdjy/6-占道经营.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "图片中是否存在占道经营现象？\n<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "是"
+      }
+    ]
+  },
+  {
+    "image": "qwen-vl-finetune/assets/new/zdjy/7-占道经营.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "图片中是否存在占道经营现象？\n<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "是"
+      }
+    ]
+  },
+  {
+    "image": "qwen-vl-finetune/assets/new/zdjy/微信图片_20240703095126.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "图片中是否存在占道经营现象？\n<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "是"
+      }
+    ]
+  },
+  {
+    "image": "qwen-vl-finetune/assets/new/zdjy/微信图片_20240703095427.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "图片中是否存在占道经营现象？\n<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "是"
+      }
+    ]
+  },
+  {
+    "image": "qwen-vl-finetune/assets/new/zdjy/微信图片_20240703095936.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "图片中是否存在占道经营现象？\n<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "是"
+      }
+    ]
+  },
+  {
+    "image": "qwen-vl-finetune/assets/new/zdjy/微信图片_20240703100218.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "图片中是否存在占道经营现象？\n<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "是"
+      }
+    ]
+  },
+  {
+    "image": "qwen-vl-finetune/assets/new/zdjy/微信图片_20240703142434.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "图片中是否存在占道经营现象？\n<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "是"
+      }
+    ]
+  }
+]

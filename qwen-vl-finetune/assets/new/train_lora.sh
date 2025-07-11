@@ -1,0 +1,11 @@
+python train.py \
+  --model_name_or_path Qwen/Qwen-VL-Chat-3B \
+  --data_path assets/new/zdjy_annotations.json \
+  --output_dir output/zdjy_3b_finetune \
+  --num_train_epochs 3 \
+  --per_device_train_batch_size 4 \
+  --per_device_eval_batch_size 4 \
+  --learning_rate 2e-5 \
+  --fp16 \
+  --do_train \
+  --do_eval
