@@ -26,12 +26,19 @@ VIDEOCHATGPT = {
     "data_path": "PATH_TO_VIDEOCHATGPT_DATA",
 }
 
+ZDJY_PIC = {
+    "annotation_path": "qwen-vl-finetune/assets/new/zdjy_annotations.json",
+    "data_path": "qwen-vl-finetune/assets/new/zdjy/" # Can be empty if paths are in annotations
+}
+
+
 data_dict = {
     "cambrian_737k": CAMBRIAN_737K,
     "cambrian_737k_pack": CAMBRIAN_737K_PACK,
     "mp_doc": MP_DOC,
     "clevr_mc": CLEVR_MC,
     "videochatgpt": VIDEOCHATGPT,
+    "zdjy": ZDJY_PIC,
 }
 
 
@@ -57,7 +64,7 @@ def data_list(dataset_names):
 
 
 if __name__ == "__main__":
-    dataset_names = ["cambrian_737k"]
+    dataset_names = ["zdjy"]
     configs = data_list(dataset_names)
     for config in configs:
         print(config)
