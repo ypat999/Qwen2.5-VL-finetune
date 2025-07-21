@@ -31,6 +31,12 @@ ZDJY_PIC = {
     "data_path": "qwen-vl-finetune/assets/new/zdjy/" # Can be empty if paths are in annotations
 }
 
+WATER_PIC = {
+    "annotation_path": "qwen-vl-finetune/assets/new/water_annotations.json",
+    "data_path": "qwen-vl-finetune/assets/new/water/" # Can be empty if paths are in annotations
+}
+
+
 
 data_dict = {
     "cambrian_737k": CAMBRIAN_737K,
@@ -39,6 +45,7 @@ data_dict = {
     "clevr_mc": CLEVR_MC,
     "videochatgpt": VIDEOCHATGPT,
     "zdjy": ZDJY_PIC,
+    "water": WATER_PIC
 }
 
 
@@ -64,7 +71,7 @@ def data_list(dataset_names):
 
 
 if __name__ == "__main__":
-    dataset_names = ["zdjy"]
+    dataset_names = ["water"]
     configs = data_list(dataset_names)
     for config in configs:
         print(config)

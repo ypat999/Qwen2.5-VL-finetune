@@ -12,12 +12,12 @@ NPROC_PER_NODE=$(nvidia-smi --list-gpus | wc -l) # 自动检测可用 GPU 数量
 MODEL_PATH="/public/ywj/huggingface/hub/models--Qwen--Qwen2.5-VL-3B-Instruct/snapshots/1b989f2c63999d7344135894d3cfa8f494116743"  # 模型权重目录
 OUTPUT_DIR="./checkpoints"                       # 模型输出目录
 CACHE_DIR="./cache"                              # 模型缓存目录
-DATASETS="zdjy%100"                              # 数据集名称及采样比例，例如 dataset_name%percentage
+DATASETS="water%100"                              # 数据集名称及采样比例，例如 dataset_name%percentage
 
 # ===== 模型训练参数 =====
-TUNE_MM_LLM=true                                  # 是否训练语言模型部分
+TUNE_MM_LLM=false                                  # 是否训练语言模型部分
 TUNE_MM_VISION=false                              # 是否训练视觉编码器（VIT）
-TUNE_MM_MLP=false                                  # 是否训练多模态投影层 MLP
+TUNE_MM_MLP=true                                  # 是否训练多模态投影层 MLP
 VISION_TOWER_LR=1e-6                              # 视觉编码器的学习率
 MM_PROJECTOR_LR=1e-5                              # 多模态投影层的学习率
 LEARNING_RATE=2e-7                                # 主学习率（用于语言模型部分）
@@ -26,16 +26,16 @@ WEIGHT_DECAY=0.01                                 # 权重衰减系数（L2 正�
 
 # ===== 精度与内存优化 =====
 USE_BF16=true                                     # 是否使用 bfloat16 精度（推荐 A100）
-BATCH_SIZE=1                                      # 每张 GPU 的 batch size
+BATCH_SIZE=4                                      # 每张 GPU 的 batch size
 GRAD_ACC=1                                        # 梯度累积步数（等效大 batch size）
 
 # ===== 训练调度参数 =====
-NUM_EPOCHS=3                                      # 总训练轮数
+NUM_EPOCHS=100                                      # 总训练轮数
 WARMUP_RATIO=0.03                                 # 学习率预热比例
 LR_SCHEDULER_TYPE="cosine"                        # 学习率调度策略，可选 linear/cosine 等
 
 # ===== 序列处理参数 =====
-MODEL_MAX_LENGTH=1024                             # 最大文本序列长度
+MODEL_MAX_LENGTH=2048                             # 最大文本序列长度
 DATA_FLATTEN=true                                 # 是否将一批样本合并成一个长序列
 DATA_PACKING=true                                 # 是否使用数据打包（packing）
 
@@ -57,6 +57,9 @@ SAVE_TOTAL_LIMIT=3                                # 最多保留的检查点数�
 
 # ===== DeepSpeed 配置 =====
 DEEPSPEED_CONFIG="qwen-vl-finetune/scripts/zero3_offload.json"             # DeepSpeed 配置文件路径
+
+
+
 
 # ===== 启动训练 =====
 torchrun --nproc_per_node=$NPROC_PER_NODE \
